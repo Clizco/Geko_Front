@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-const url = "http://192.168.1.23:1500/account/signup/"
+const url = "http://localhost:1500/account/signup/"
 
 const Signup = () => {
     const [firstname, setFirstname] =       useState('');
