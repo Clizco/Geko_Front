@@ -14,8 +14,17 @@ const Dashboard = props => {
 
   return (
     <div>
-      Welcome {user.firstname +" "+ user.lastname} !<br /><br />
-      Telefono: {user.phone} <br /><br />
+      <div className="auth-wrapper">
+        <div className="auth-inner">
+          <input type="button" onClick={()=>history("/updateUser", {state: user})}></input>
+          <div>
+            Name<h2>{user.firstname}</h2>
+            Email<h2>{user.email}</h2>
+          </div>
+          
+        </div>
+
+      </div>
 
       <input type="button" onClick={handleLogout} value="Logout" />
     </div>
