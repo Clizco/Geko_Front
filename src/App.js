@@ -11,6 +11,7 @@ import Signup from './pages/Signup.js';
 import Home from './pages/Home.js';
 import Dashboard from './pages/Dashboard';
 import NotFound from './pages/NotFound';
+import UpdateUser from './pages/UpdateUser';
 
 
 
@@ -37,6 +38,7 @@ const App = () => {
           <Route path="/signup" element={<Signup />} />
         </Route>
         <Route element={<PrivateRoutes />}>
+          <Route path='/updateuser' element={<UpdateUser />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
