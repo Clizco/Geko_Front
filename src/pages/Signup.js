@@ -1,8 +1,10 @@
 import { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router";
 const url = "http://localhost:1500/account/signup/"
 
 const Signup = () => {
+    const history = useNavigate();
     const [firstname, setFirstname] =       useState('');
     const [lastname, setLastname] =         useState('');
     const [email, setEmail] =               useState('');
@@ -21,6 +23,9 @@ const Signup = () => {
                                                  dateofbirth : dateofbirth
                                                 });
             console.log(resp.data);
+            history('/login')
+            alert("Gracias por registrarte!")
+            
         }catch (error) {
             console.log(error.response)
 
