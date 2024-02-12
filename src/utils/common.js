@@ -1,4 +1,4 @@
-
+const url = "http://localhost:1500/account/delete/plio@gmail.com"
 export const getUser = () => {
     const userStr = localStorage.getItem('userData');
     if (userStr) return JSON.parse(userStr);
