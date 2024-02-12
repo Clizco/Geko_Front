@@ -68,9 +68,9 @@ const handleLogin = async (e) => {
                         password
                     </label>
                     <input
-                    type='text'
+                    type='password'
                     className='form-input'
-                    id='name'
+                    id='password'
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                 />
