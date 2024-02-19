@@ -1,4 +1,4 @@
-# BLUD - FrontEnd Version
+# BLUD - Frontend Version
 
 This is the frontend view of BLUD (Api for database management)
 
