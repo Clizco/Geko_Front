@@ -1,16 +1,6 @@
-# BLUD - Mongoose Version
+# BLUD - FrontEnd Version
 
-Api for database management
-
-This project includes:
-
-- express
-- mongoose
-- dotenv
-- cookie-parser
-- http-error
-- mongodb
-- jsonwebtoken
+This is the frontend view of BLUD (Api for database management)
 
 # CONTRIBUTING
 
@@ -30,13 +20,9 @@ You should have received a copy of the GNU General Public License along with thi
 ```
 npm start # build the project (prestart script) and start the server
 
-npm run start:dev # start the project in watch mode (nodemon)
-
 npm run serve # start the project without building the project (ts-node)
 
 npm run build # builds the project to ./dist
 
 npm run debug # turns on the debug mode and runs npm run start
 
-npm run dev # turns on the debug mode and runs npm run start:dev 
-```
