@@ -1,28 +1,24 @@
-# BLUD - Frontend Version
+Geko - Frontend Version
+Este es el frontend de Geko, la API para la gestión de bases de datos.
 
-This is the frontend view of BLUD (Api for database management)
+CONTRIBUTING
+Si deseas ayudar en el proyecto, envíame un mensaje y siéntete libre de contribuir
 
-# CONTRIBUTING
+Changelog
+Disclaimer
+Este programa es software libre: puedes redistribuirlo y/o modificarlo bajo los términos de la Licencia Pública General de GNU, tal como fue publicada por la Free Software Foundation, ya sea la versión 3 de la Licencia, o (a tu elección) cualquier versión posterior.
 
-If you want to help in the project send me a little message, and feel free to help :D
+Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Consulta la Licencia Pública General de GNU para más detalles.
 
-# Changelog
+Deberías haber recibido una copia de la Licencia Pública General de GNU junto con este programa. Si no es así, consulta https://www.gnu.org/licenses/.
 
-# Disclaimer
+Commands
+arduino
+Copiar código
+npm start # build del proyecto (script prestart) y arranca el servidor
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+npm run serve # arranca el proyecto sin build (ts-node)
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+npm run build # compila el proyecto en ./dist
 
-You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
-
-# Commands
-```
-npm start # build the project (prestart script) and start the server
-
-npm run serve # start the project without building the project (ts-node)
-
-npm run build # builds the project to ./dist
-
-npm run debug # turns on the debug mode and runs npm run start
-
+npm run debug # activa el modo debug y ejecuta npm run start
